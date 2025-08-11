@@ -1,0 +1,89 @@
+#mainContent {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#card {
+  text-align: center;
+}
+
+#profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+#userName {
+  font-size: 2rem;
+  color: #333;
+  margin: 10px 0 5px 0;
+  font-weight: 700;
+}
+
+#email,
+#phone,
+#yearsOfExp {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+#yearsOfExp {
+  font-weight: 600;
+  color: #4a90e2;
+}
+
+#bioHeading {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #222;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 6px;
+}
+
+#bioContent {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+#skillsHeading {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #222;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 6px;
+}
+
+#skillsList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+#skillsList li {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+#skillsList li:hover {
+  background-color: #357ABD;
+}
