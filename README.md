@@ -1,4 +1,9 @@
-#📌 Description
+
+![Repository Preview] (https://socialify.git.ci/Andile45/Developer-Card/image?language=1&owner=1&name=1&stargazers=1&theme=Light)
+
+
+
+# 📌 Description
 The *Developer Card* is a simple web application that takes developer data from a spreadsheet, converts it into a JavaScript object, and displays it on a styled card in the browser. The card contains all the developer’s details and is centered both vertically and horizontally.
 
 This project was built using *only HTML, CSS, and JavaScript* without any frameworks.
